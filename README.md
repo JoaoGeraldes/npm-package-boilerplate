@@ -5,15 +5,14 @@ Welcome to the ultimate boilerplate for those who want to get straight to the co
 
 **Start your npm package library today!** 🚀
 
-# 📙 How to use
 
-### 👨‍💻 Develop 👩‍💻
+# 1. 💻 Develop 
 
 1. Start developing your solution at `src/index.ts`.
 2. If you want to modify the default (`index.js`) name for your entry file (compiled/built), make sure to change it on the `package.json` file.
 3. Done.
 
-### 📦 Build (`/dist`)
+# 2. 📦 Build (`/dist`)
 
 1. **Without compression/minification**
 
@@ -25,9 +24,9 @@ Welcome to the ultimate boilerplate for those who want to get straight to the co
 
    By default, your compiled version goes to `/dist` directory.
 
-# 🚀 Publish
+# 3. 🚀 Publish
 
-## 1. Test locally (before publish)
+### 1. Test locally (before publish)
 
 _within the project's directory_
 
@@ -42,7 +41,7 @@ _within the project's directory_
    import myPackage from "my-package";
    ```
 
-## 2. Deploy to npm (https://www.npmjs.com/)
+### 2. Deploy to npm (https://www.npmjs.com/)
 
 1. Increment version before publishing
 
