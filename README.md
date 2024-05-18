@@ -3,7 +3,7 @@
 
 Welcome to the ultimate boilerplate for those who want to get straight to the coding action without the hassle! This setup is so smooth, you might start believing in magic. Pre-configured with **TypeScript** and automatic **minification**, it’s the perfect toolkit for anyone who wants to get the boring stuff out of the way with minimal effort.
 
-**Start your npm package library today!** 🚀
+**Start your own npm package library today!** 🚀
 
 
 # 1. 💻 Develop 
