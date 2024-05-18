@@ -10,7 +10,7 @@ Welcome to the ultimate boilerplate for those who want to get straight to the co
 
 1. Start developing your solution at `src/index.ts`.
 2. If you want to modify the default (`index.js`) name for your entry file (compiled/built), make sure to change it on the `package.json` file.
-3. Done.
+3. Change the `name` property on the `package.json` to your desired package name.
 
 # 2. 📦 Build (`/dist`)
 
