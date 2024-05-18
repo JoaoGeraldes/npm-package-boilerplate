@@ -1,3 +1,6 @@
 // Start coding here... 👨‍💻👩‍💻
-const message = "Developing my own package!";
-console.log(message);
+export default function myPackage(){
+  console.log("Developing my own package!");
+}
+
+
