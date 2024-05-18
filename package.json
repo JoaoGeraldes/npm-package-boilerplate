@@ -4,8 +4,16 @@
   "description": "A boilerplate to quickly create an npm package.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "minify": "terser dist/index.js -o dist/index.js --compress --mangle",
+    "build-and-minify": "npm-run-all build minify"
   },
   "author": "João Geraldes",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "terser": "^5.31.0",
+    "typescript": "^5.4.5"
+  }
 }
