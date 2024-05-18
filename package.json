@@ -1,0 +1,11 @@
+{
+  "name": "npm-package-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to quickly create an npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Geraldes",
+  "license": "ISC"
+}
